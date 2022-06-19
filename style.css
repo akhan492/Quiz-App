@@ -16,7 +16,8 @@ html {
   background-color: lightblue;
 }
 .inner-div {
-  width: 30vw;
+  width: 50%;
+  /* max-width: 50vw; */
   background-color: #fff;
   padding: 3rem 8rem;
   border-radius: 1rem;
@@ -64,4 +65,16 @@ input {
 }
 .showArea{
   display: none;
+}
+
+
+@media (max-width: 600px) {
+  
+
+  .inner-div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
 }
